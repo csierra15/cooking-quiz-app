@@ -1,0 +1,67 @@
+.radio {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.js-quiz-container, #js-start-page {
+  border: 3px solid olive;
+  padding: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cat-pic {
+  border: 1px solid;
+  display: block;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+body {
+  padding-top: 60px;
+  background-color: peachpuff;
+  font-family: 'Lato', sans-serif;
+}
+
+.js-start-button, .js-start-over-button, .js-submit-button, .js-next-question {
+  font-size: 20px;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.js-select-answer {
+  color: red;
+  font-weight: bold;
+}
+
+.js-feedback-page {
+  font-size: 20px;
+}
+
+.hidden {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  padding: 7px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.js-feedback-page {
+}

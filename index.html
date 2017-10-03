@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Quiz App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1 role="banner">Cooking Quiz</h1>
+      <img role="img" src="https://i.imgur.com/I6xjsj4.jpg" title="source: imgur.com" class = "cat-pic" alt = "Picture of a white cat with a chef hat on."/>
+    </header>
+    
+    <main>
+      
+      <div class="hidden" id="js-start-page">
+          <h3>Are you ready to test your cooking chops?</h3>
+          <input type="submit" role="navigation" class="js-start-button" value="Let's go!">
+      </div>
+      
+      <div class="js-quiz-container">
+        <div class="js-question-container"></div>
+        
+        <form>
+          <ul class="js-answer-options"></ul>
+        </form>
+        
+        <div class="js-select-answer"></div>
+        
+        <input type="submit" role="button" class="js-submit-button" value="Submit Answer">
+        
+        <div class = "js-feedback-page"></div>
+        
+        <input type="submit" role="navigation" class="js-next-question" value="Next">
+        
+        <div class="js-test-results"></div>
+          
+        <input type="submit" role="button" class ="js-start-over-button" value = "Start again?">
+      </div>
+    </main>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
