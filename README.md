@@ -1,6 +1,6 @@
 # Cooking Quiz
 
-###A fun quiz app built with HTML, CSS, JS, & jQuery.
+A fun quiz app built with HTML, CSS, JS, & jQuery.
 
 Think you're a good cook? Take the quiz and find out!
 
